@@ -11,5 +11,7 @@ namespace Coffee.Models
         public int ProductID { get; set; }
         public DateTime TransactionDate{ get; set; }
         public int Total { get; set; }
+        public Product Product { get; set; }
+        public Till Till { get; set; }
     }
 }

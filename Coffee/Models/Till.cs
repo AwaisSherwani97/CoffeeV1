@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace Coffee.Models
 {
-    public class Product
+    public class Till
     {
-        public int ProductID { get; set; }
-        public string ProductName { get; set; }
-
+        public int TillID { get; set; }
+        public int TillNumber { get; set; }
         public ICollection<Transaction> Transactions { get; set; }
     }
 }
